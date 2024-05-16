@@ -19,6 +19,7 @@ button {
 .thisLine {
 	font-weight: bold !important;
 	color: red !important;
+	text-decoration: underline !important;
 }
 
 
