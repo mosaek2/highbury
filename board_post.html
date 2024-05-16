@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/board_post.css">
+	<title>하이버리</title>
+</head>
+<body>
+	<header>
+		<div class="headerInner">
+			<p class="slogan">국내 최대 아스날 팬 커뮤니티</p>
+			<p class="logo"><a href="./index.html">HIGHBURY</a></p>
+			<div class="function">
+				<a href="./login.html">로그인</a>
+				<a href="./join.html">회원가입</a>
+				<img src="./images/Search.png">
+			</div>
+		</div>
+	</header>
+
+
+	<nav>
+		<div class="navInner">
+			<a href="./board_list.html">게시판</a>
+			<p>베스트</p>
+			<p>스케쥴</p>
+			<p>포인트샵</p>
+			<p>랭킹</p>
+		</div>
+	</nav>
+
+
+	<main>
+		<form class="boardFrame">
+			<div class="tabContainer">
+				<button class="tabTalk tabButton">잡담</button>
+				<button class="tabNews tabButton">뉴스</button>
+				<button class="tabCalumn tabButton">칼럼</button>
+				<button class="tabGrill tabButton">불판</button>
+			</div>
+
+			<input type="text" placeholder="제목" class="postTitle">
+
+			<div class="writeFunctionContainer">
+				<div class="funcSec">
+					<div class="font">돋움</div>
+					<div class="fontSize">9pt</div>
+					<div class="squareBox bold">A</div>
+					<div class="squareBox em">A</div>
+					<div class="squareBox ins">A</div>
+					<div class="squareBox del">A</div>
+					<div class="squareBox">
+						<div class="fontColor">A</div>
+					</div>
+					<div class="squareBox">
+						<div class="fontBackground">A</div>
+					</div>
+				</div>
+				<div class="funcSec">
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+				</div>
+				<div class="funcSec">
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+					<div class="squareBox"></div>
+				</div>
+			</div>
+			<textarea placeholder="내용"></textarea>
+			<div class="modify">↕ 입력창 크기 조절</div>
+
+			<div class="writeFunction">
+				<button type="button" class="cancel" onclick="location.href='./board_list.html'">취소</button>
+				<button type="submit" class="complete">작성완료</button>
+			</div>
+		</form>
+	</main>
+
+
+	<footer>
+		Copyright © 2012 - 2021 highbury All rights reserved.
+	</footer>
+</body>
+</html>
